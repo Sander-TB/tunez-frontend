@@ -23,7 +23,7 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-	title: "Tunez | Find the coolest parties",
+	title: "Tunez | Musical Events",
 	description: "Find the latest musical events near you",
 	keywords: "music, rock, events, blues, soul",
 };
