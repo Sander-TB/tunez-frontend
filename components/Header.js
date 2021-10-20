@@ -1,4 +1,4 @@
-import { RiMusicFill } from "react-icons/ri";
+import { RiMusic2Fill } from "react-icons/ri";
 import Link from "next/link";
 import styles from "@/styles/Header.module.css";
 
@@ -7,10 +7,9 @@ export default function Header() {
 		<header className={styles.header}>
 			<div className={styles.logo}>
 				<Link href='/'>
-					<a>
-						<RiMusicFill />
-						Tunez
-						<RiMusicFill />
+					<a className='flex'>
+						<RiMusic2Fill />
+						<span className='mx'>Tunez</span>
 					</a>
 				</Link>
 			</div>

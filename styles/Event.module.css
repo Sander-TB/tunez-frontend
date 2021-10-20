@@ -1,0 +1,57 @@
+.event {
+	position: relative;
+	padding: 40px;
+	background: #d3d3d3;
+	border-radius: 5px;
+}
+
+.event h3 {
+	font-size: 25px;
+}
+
+.event h1 {
+	color: #000;
+	margin-top: 30px;
+}
+
+.event p {
+	margin: 10px 0;
+}
+
+.image {
+	margin-bottom: 20px;
+}
+
+.controls {
+	position: absolute;
+	right: 30px;
+	top: 1;
+}
+
+.delete {
+	margin-left: 20px;
+	font-size: 13px;
+	background: #bf2121;
+	color: #fff;
+	padding: 10px 10px;
+	cursor: pointer;
+	border: 0;
+	border-radius: 5px;
+}
+
+.edit {
+	font: inherit;
+	font-size: 13px;
+	background: steelblue;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.back {
+	display: block;
+	margin-top: 40px;
+}
