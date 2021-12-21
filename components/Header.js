@@ -1,4 +1,5 @@
 import { RiMusic2Fill } from "react-icons/ri";
+import Search from "./Search";
 import Link from "next/link";
 import styles from "@/styles/Header.module.css";
 
@@ -13,6 +14,9 @@ export default function Header() {
 					</a>
 				</Link>
 			</div>
+
+			<Search />
+
 			<nav>
 				<ul>
 					<li>
