@@ -1,4 +1,4 @@
-import { RiMusic2Fill } from "react-icons/ri";
+import { RiMusic2Fill, RiLoginBoxLine, RiLogoutBoxLine } from "react-icons/ri";
 import Search from "./Search";
 import Link from "next/link";
 import styles from "@/styles/Header.module.css";
@@ -27,6 +27,13 @@ export default function Header() {
 					<li>
 						<Link href='/events/add'>
 							<a>Add Event</a>
+						</Link>
+					</li>
+					<li>
+						<Link href='/account/login'>
+							<a className='btn-secondary btn-icon'>
+								<RiLoginBoxLine /> Log In
+							</a>
 						</Link>
 					</li>
 				</ul>
