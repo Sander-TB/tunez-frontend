@@ -43,7 +43,7 @@ export default function Header() {
 							</li>
 							<li>
 								<button
-									onClick={() => logout}
+									onClick={() => logout()}
 									className='btn-secondary btn-icon'>
 									<RiLogoutBoxLine /> Log Out
 								</button>
