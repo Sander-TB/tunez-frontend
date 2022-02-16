@@ -41,7 +41,7 @@ export default function EventMap({ evt }) {
 			{...viewport}
 			mapboxApiAccessToken={process.env.NEXT_PUBLIC_MAPBOX_API_TOKEN}
 			onViewportChange={(vp) => setViewport(vp)}>
-			{/*work in progress, cant get API key to work*/}
+			{/*work in progress, cant get API key to workS*/}
 			<Marker key={evt.id} latitude={lat} longitude={lng}>
 				Hello
 			</Marker>
